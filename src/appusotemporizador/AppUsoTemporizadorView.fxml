@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import temporizador.Temporizador?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusotemporizador.AppUsoTemporizadorController">
+   <children>
+      <Temporizador fx:id="temp" layoutX="91.0" layoutY="83.0" onFinished="#acaba" time="10"/>
+   </children>
+</AnchorPane>
